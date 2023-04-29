@@ -1,6 +1,10 @@
 ## Creating AI Chatbot Using ChatGPT API with PHP: A Step-by-Step Guide
-- To use the ChatGPT API with PHP, you can follow the following steps:
-- First, you need to create an HTTP client that can send requests to the API endpoint. You can use PHP's built-in curl library for this purpose. Here's an example code snippet:
+
+To use the ChatGPT API with PHP, you can follow the following steps:
+
+1. First, you need to create an HTTP client that can send requests to the API endpoint. 
+
+You can use PHP's built-in curl library for this purpose. Here's an example code snippet:
 
 ```
 // Create a new cURL resource
@@ -39,11 +43,11 @@ echo $response;
 
 ```
 
-- In this code snippet, we are creating a new cURL resource and setting the API endpoint URL, request headers, and request data. We are then setting the cURL options and sending the request using the curl_exec function. Finally, we are printing the response.
+In this code snippet, we are creating a new cURL resource and setting the API endpoint URL, request headers, and request data. We are then setting the cURL options and sending the request using the curl_exec function. Finally, we are printing the response.
 
-- You can modify the $data array to include your own prompt and parameters. For example, you can set the temperature parameter to control the creativity of the generated text.
+You can modify the $data array to include your own prompt and parameters. For example, you can set the temperature parameter to control the creativity of the generated text.
 
-- You can parse the response JSON to extract the generated text. For example:
+2. You can parse the response JSON to extract the generated text. For example:
 
 ```
 // Parse the response JSON
@@ -57,6 +61,6 @@ echo $generated_text;
 
 ```
 
-- In this code snippet, we are parsing the response JSON using the json_decode function and extracting the generated text from the response data. We are then printing the generated text.
+In this code snippet, we are parsing the response JSON using the json_decode function and extracting the generated text from the response data. We are then printing the generated text.
 
 This helps will help you to start with using the ChatGPT API with PHP!
