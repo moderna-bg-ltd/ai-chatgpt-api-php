@@ -63,4 +63,4 @@ echo $generated_text;
 
 In this code snippet, we are parsing the response JSON using the json_decode function and extracting the generated text from the response data. We are then printing the generated text.
 
-This helps will help you to start with using the ChatGPT API with PHP!
+This helps will help you to start with using the ChatGPT API with PHP.
